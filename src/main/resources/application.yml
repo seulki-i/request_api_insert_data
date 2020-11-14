@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3336/test
+    username: root
+    password: admin123
+apiName:
+  url: http://ip:port
+server:
+  port: 19020
+  shutdown: graceful #한번 돌면 서버 죽이게
